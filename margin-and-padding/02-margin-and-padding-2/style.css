@@ -1,6 +1,6 @@
 /* 
 
-DONE (double check this) - There is 8px between the edge of the card and its content (the blue sections).
+DONE! - There is 8px between the edge of the card and its content (the blue sections).
 DONE - There is an 8px gap between each of the blue sections inside the card.
 DONE - The title of the card uses a 16px font.
 DONE - There are 8px between the title text and the edge of the title section.
@@ -16,7 +16,7 @@ DONE - The Big Button is centered on its own line.
   box-sizing: border-box;
 }
 
-div, h1{
+div, h1 {
   margin:8px;
 
 }
@@ -45,7 +45,6 @@ body {
 
 .button-container {
   background: #e3f4ff;
-  margin: auto;
   padding: 8px;
   text-align:center;
 }
