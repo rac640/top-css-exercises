@@ -12,6 +12,21 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  /*1. Added Display: flex*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.left-side{
+  display: flex;
+}
+.right-side{
+  display: flex;
+  /*Added padding and gap to the items on right side*/
+  padding: 10px;
+  gap: 1rem;
 }
 
 .profile-image {
@@ -27,6 +42,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  
 }
 
 button {
@@ -42,6 +58,15 @@ a {
   text-decoration: none;
   color: rebeccapurple;
 }
+
+
+/* 2. Added Links class, and made them display: flex */
+.links{
+  display: flex;
+  gap: 1rem;
+}
+
+
 
 ul {
   list-style-type: none;
